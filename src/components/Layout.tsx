@@ -34,3 +34,4 @@ export const Layout = ({ title, children }: LayoutProps) => {
         </>
     )
 }
+
