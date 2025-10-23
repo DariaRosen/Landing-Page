@@ -5,6 +5,7 @@ function App() {
   return (
     <Layout title="EdgeAI">
       <Hero />
+      <Brands />
     </Layout>
   );
 }
