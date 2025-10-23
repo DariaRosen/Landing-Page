@@ -9,7 +9,7 @@ export const AboutUs = () => {
       {" "}
       <Container className="flex flex-col md:flex-row gap-10 lg:gap-12 items-center">
         <div className="w-full md:w-5/12 lg:w-1/2">
-          <div className="w-full h-80 sm:h-96 relative">
+          <div className="w-full h-[26rem] sm:h-[25rem] relative">
             <img
               src="https://images.pexels.com/photos/8728381/pexels-photo-8728381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               className="w-full h-full object-cover rounded-3xl shadow-lg relative z-10"
@@ -28,7 +28,7 @@ export const AboutUs = () => {
             industry.
           </Paragraph>
 
-          <div className="pt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl">
+          <div className="pt-7 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl">
             <Info
               title="Mission"
               description="Our mission is to use AI for the good of humanity and the planet."
