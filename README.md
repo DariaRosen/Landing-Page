@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# 🚀 React + Tailwind CSS + Vite + TypeScript + Zustand  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Build a Beautiful, Modern Landing Page for Your AI SaaS**  
+A sleek, responsive website built with React, Tailwind CSS, Vite, TypeScript, and Zustand — designed to showcase your AI product and convert visitors into customers.  
 
-Currently, two official plugins are available:
+> 🎥 Follow along with our detailed tutorial on [YouTube](https://www.youtube.com/) (coming soon)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📋 Table of Contents  
+- [Introduction](#-introduction)  
+- [Tech Stack](#-tech-stack)  
+- [Features](#-features)  
+- [Quick Start](#-quick-start)  
+- [Code Snippets](#-code-snippets)  
+- [Assets & More](#-assets--more)  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🌟 Introduction  
+This project is a **modern landing page template** tailored for an AI SaaS company. It uses a minimalist aesthetic, smooth animations, and a modular React architecture — making it both **developer-friendly** and **production-ready**.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Designed to help startups and developers quickly launch a visually stunning landing page with a focus on clarity, performance, and conversion.  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ⚙️ Tech Stack  
+- **React** – For building reusable UI components  
+- **Vite** – Lightning-fast builds and hot module reloading  
+- **Tailwind CSS** – Utility-first, responsive styling with design tokens  
+- **TypeScript** – Strong typing and modern JavaScript features  
+- **Zustand** – Lightweight global state management (theme persistence, UI control)  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚡️ Features  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🎨 Modern Landing Page Design  
+A sleek, fully responsive layout optimized for desktop and mobile. Perfect for AI and tech startups.  
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🌗 Dark & Light Mode  
+Toggle seamlessly between themes using **Zustand** and **Tailwind CSS** design tokens.  
+
+### 🧩 Interactive Components  
+Includes essential sections:  
+- Hero  
+- About  
+- Features  
+- Skills  
+- Projects  
+- Contact  
+
+Each section is built as a reusable React component.  
+
+### ✨ Animated Elements  
+Smooth hover effects, subtle gradients, and animated transitions powered by Tailwind and Framer Motion (optional).  
+
+### 🧠 State Management  
+Global theme persistence with **Zustand**, ensuring consistent UI state across page reloads.  
+
+---
+
+## ⚙️ Quick Start  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/DariaRosen/Landing-Page.git
+cd Landing-Page
