@@ -62,11 +62,4 @@ Smooth hover effects, subtle gradients, and animated transitions powered by Tail
 ### 🧠 State Management  
 Global theme persistence with **Zustand**, ensuring consistent UI state across page reloads.  
 
----
 
-## ⚙️ Quick Start  
-
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/DariaRosen/Landing-Page.git
-cd Landing-Page
