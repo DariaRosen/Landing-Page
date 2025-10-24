@@ -1,4 +1,9 @@
-# 🚀 React + Tailwind CSS + Vite + TypeScript + Zustand  
+# SaaS Landing Page
+
+🚀 React + Tailwind CSS + Vite + TypeScript + Zustand  
+
+🔗 Live Demo: https://landing-page-ashen-pi.vercel.app/
+📦 Code Repo: https://github.com/DariaRosen/Landing-Page
 
 **Build a Beautiful, Modern Landing Page for Your AI SaaS**  
 A sleek, responsive website built with React, Tailwind CSS, Vite, TypeScript, and Zustand — designed to showcase your AI product and convert visitors into customers.  
